@@ -1,4 +1,6 @@
-                                         TeesForYou.com (Custom made Printed T-shirt ordering site => E-Commerce)              
+
+
+                                             TeesForYou.com (Custom made Printed T-shirt ordering site => E-Commerce)              
 
 
 TYPES OF USERS:
@@ -83,7 +85,7 @@ DATABASE:
 
 
   Customer_Info:
-    # Customer_id (Primanry key)
+    # Customer_id (Primary_key)
     # Customer_name
     # Phone_number
     # Email_id
@@ -101,14 +103,17 @@ DATABASE:
     # UPI_id
 
 
+  PhotoFile_Info:
+    # Photo_ID
+    # PhotoFile_Name
+    # Photo_file
+
   Order_Info:
-    # Order_id (primary key)
-    # Product_id (Foreign Key)
-    # Customer_id (Foreign Key)
-    # Payment_id (Foreign Key)
+    # Order_id (primary_key)
+    # Product_id (Foreign_key)
+    # Customer_id (Foreign_key)
+    # Payment_id (Foreign_key)
+    # Photo_ID (Foreign_key)
     # No_of_units
     # Size
     # Color
-    # PhotoFile_Name
-    
-
