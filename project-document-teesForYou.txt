@@ -1,0 +1,114 @@
+                                         TeesForYou.com (Custom made Printed T-shirt ordering site => E-Commerce)              
+
+
+TYPES OF USERS:
+  1.Customers
+  2.Admin
+
+
+FUNTIONALITIES
+  1.Customer:
+    # Signin / Signup page (Using mail/Phone No.)
+    # selecting the type of product (Tshirt, sweatshirts, TankTops, V-neck, Hoodies)
+    # Order Details(Size, color, Design photo to print, No. of units)
+    # Checkout ( Address, Payment mode)
+    # delievery status
+    # Writing Review
+
+  2.Admin:
+    # Admin SignIn
+    # Adding / Editing Products list and its details
+    # DashBoard for Orders placed 
+    # Updating Delievery status
+
+
+
+INPUTS & ACTIONS:
+  1.Customer:
+
+    # SignUp
+      Input : Name, PhoneNo./Email, password
+      Action: signup
+
+    # SignIn
+      Input : PhoneNo./Email, password
+      Action: signin
+
+    # Selecting product
+      Input :
+      Action: product Cards (takes to order details page)
+
+    # Order Details
+      Input : Size, color, Design photo to print, No. of units, Address, Payment mode
+      Action: Add to Cart,Buy Now
+
+    # CheckOut
+      Input : Address, Payment mode
+      Action: Place order,ok, Save, cancel
+
+    # Reviews:
+      Input : Text Comment, No, of Stars, Photos
+      Action: Done, Cancel
+
+
+  2.ADMIN:
+
+    # SignIn
+      Input : PhoneNo./Email, password
+      Action: signin
+
+    # Adding / Editing Products
+      Input : Photo, Name, Price, Color, Size, Availabitity
+      Action: Save, Add, remove, Cancel
+
+    # Dashboard
+      Input : 
+      Action: Order card (gives summary of order details)
+
+     # Updating Delievery status
+       Input : info_textBox
+       Action: Done, Cancel
+
+
+
+DATABASE:
+
+  Product_Info:
+    # Product_id (Primanry key)
+    # Product_name
+    # product_price
+    # Available_Size
+    # Available_color
+    # Availabitity
+
+
+  Customer_Info:
+    # Customer_id (Primanry key)
+    # Customer_name
+    # Phone_number
+    # Email_id
+    # Address
+
+
+  Payment_Info:
+    # Payment_id (Primary_key)
+    # Customer_id (Foreign_key)
+    # Amount_paid
+    # Bank_account_no
+    # Account_holder_name
+    # Branch
+    # IFSC_code
+    # UPI_id
+
+
+  Order_Info:
+    # Order_id (primary key)
+    # Product_id (Foreign Key)
+    # Customer_id (Foreign Key)
+    # Payment_id (Foreign Key)
+    # No_of_units
+    # Size
+    # Color
+    # PhotoFile_Name
+    
+
