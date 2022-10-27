@@ -41,7 +41,7 @@ INPUTS & ACTIONS:
 
     # Selecting product
       Input :
-      Action: product Cards (takes to order details page)
+      Action: product Cards (takes to order details page), Delievered
 
     # Order Details
       Input : Size, color, No. of units, Address, Payment mode
