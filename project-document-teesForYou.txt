@@ -17,14 +17,14 @@ FUNTIONALITIES
     # selecting the type of product (Tshirt, sweatshirts, TankTops, Hoodies)
     # Order Details(Size, color, No. of units)
     # Checkout (Address, Payment mode)
-    # delievery status
+    # delivery status
     # Writing Review
 
   2.Admin:
     # Admin SignIn
     # DashBoard for Orders placed 
     # Adding / Editing Products list and its details
-    # Updating Delievery status
+    # Updating Delivery status
 
 
 
@@ -68,10 +68,10 @@ INPUTS & ACTIONS:
 
     # Dashboard
       Input : 
-      Action: Orders_card (gives summary of order details), cancel_button, Delievered_button
+      Action: Orders_card (gives summary of order details), cancel_button, Delivered_button
 
-     # Updating Delievery status
-       Input : Delievery_info
+     # Updating Delivery status
+       Input : Delivery_info
        Action: Done_button, Cancel_button
 
 
