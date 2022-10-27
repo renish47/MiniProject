@@ -84,7 +84,7 @@ DATABASE:
     # product_price
     # Available_Size
     # Available_color
-    # Availabitity
+    # Product_Availabitity
 
 
   Customer_Info:
