@@ -22,8 +22,8 @@ FUNTIONALITIES
 
   2.Admin:
     # Admin SignIn
-    # Adding / Editing Products list and its details
     # DashBoard for Orders placed 
+    # Adding / Editing Products list and its details
     # Updating Delievery status
 
 
