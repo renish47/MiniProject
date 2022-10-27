@@ -13,7 +13,7 @@ FUNTIONALITIES
     # Signin / Signup page (Using mail/Phone No.)
     # selecting the type of product (Tshirt, sweatshirts, TankTops, V-neck, Hoodies)
     # Order Details(Size, color, No. of units)
-    # Checkout ( Address, Payment mode)
+    # Checkout (Address, Payment mode)
     # delievery status
     # Writing Review
 
