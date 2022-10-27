@@ -41,7 +41,7 @@ INPUTS & ACTIONS:
 
     # Selecting product
       Input :
-      Action: product Cards (takes to order details page), cancel, Delievered
+      Action: product Cards (takes to order details page)
 
     # Order Details
       Input : Size, color, No. of units, Address, Payment mode
@@ -68,7 +68,7 @@ INPUTS & ACTIONS:
 
     # Dashboard
       Input : 
-      Action: Order card (gives summary of order details)
+      Action: Order card (gives summary of order details), cancel, Delievered
 
      # Updating Delievery status
        Input : info_textBox
