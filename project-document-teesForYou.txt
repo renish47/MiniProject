@@ -68,7 +68,7 @@ INPUTS & ACTIONS:
 
     # Dashboard
       Input : 
-      Action: Orders_card(gives summary of order details), cancel_button, Delievered_button
+      Action: Orders_card (gives summary of order details), cancel_button, Delievered_button
 
      # Updating Delievery status
        Input : Delievery_info
