@@ -3,7 +3,7 @@
                                                                  TeesForYou.com (E-Commerce)     
 
 
-=> Site where you can buy printed Tshirts, sweatshirts, TankTops, V-neck, Hoodies online
+=> Site where you can buy printed Tshirts, sweatshirts, TankTops, Hoodies online
 
 
 TYPES OF USERS:
@@ -14,7 +14,7 @@ TYPES OF USERS:
 FUNTIONALITIES
   1.Customer:
     # Signin / Signup page (Using mail/Phone No.)
-    # selecting the type of product (Tshirt, sweatshirts, TankTops, V-neck, Hoodies)
+    # selecting the type of product (Tshirt, sweatshirts, TankTops, Hoodies)
     # Order Details(Size, color, No. of units)
     # Checkout (Address, Payment mode)
     # delievery status
