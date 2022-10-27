@@ -33,46 +33,46 @@ INPUTS & ACTIONS:
 
     # SignUp
       Input : Name, PhoneNo./Email, password
-      Action: signup, show/hide password
+      Action: signUp_button, show/hide_password_button
 
     # SignIn
       Input : PhoneNo./Email, password
-      Action: signin, Account-Authentication, show/hide password
+      Action: signIn_button, Account_Authentication, show/hide_password_button
 
     # Selecting product
       Input :
-      Action: product Cards (takes to order details page)
+      Action: product_Cards (takes to order details page)
 
     # Order Details
-      Input : Size, color, No. of units, Address, Payment mode
-      Action: Add to Cart, Buy Now
+      Input : Size, color, No. of units, Address, Payment_mode
+      Action: addToCart_button, buyNow_button
 
     # CheckOut
-      Input : Address, Payment mode
-      Action: Place order, ok, Save, cancel
+      Input : Address, Payment_mode
+      Action: placeOrder_button, ok_button, save_button, cancel_button
 
     # Reviews:
-      Input : Text Comment, No. of Stars, Photos
-      Action: Done, Cancel
+      Input : Text_Comment, No._of_Stars, Photos
+      Action: done_button, Cancel_button
 
 
   2.ADMIN:
 
     # SignIn
       Input : Email, password
-      Action: signin, Account-Authentication, show/hide password
+      Action: signIn_button, Account_Authentication, show/hide password_button
 
     # Adding / Editing Products
       Input : Photo, Name, Price, Color, Size, Availabitity
-      Action: Save, Add, remove, Cancel
+      Action: Save_button, Add_button, remove_button, Cancel_button
 
     # Dashboard
       Input : 
-      Action: Order card (gives summary of order details), cancel, Delievered
+      Action: Orders_card(gives summary of order details), cancel_button, Delievered_button
 
      # Updating Delievery status
-       Input : info_textBox
-       Action: Done, Cancel
+       Input : Delievery_info
+       Action: Done_button, Cancel_button
 
 
 
