@@ -33,7 +33,7 @@ INPUTS & ACTIONS:
 
     # SignUp
       Input : Name, PhoneNo./Email, password
-      Action: signup, Password-Authentication
+      Action: signup
 
     # SignIn
       Input : PhoneNo./Email, password
