@@ -45,14 +45,14 @@ INPUTS & ACTIONS:
 
     # Order Details
       Input : Size, color, No. of units, Address, Payment mode
-      Action: Add to Cart,Buy Now
+      Action: Add to Cart, Buy Now
 
     # CheckOut
       Input : Address, Payment mode
-      Action: Place order,ok, Save, cancel
+      Action: Place order, ok, Save, cancel
 
     # Reviews:
-      Input : Text Comment, No, of Stars, Photos
+      Input : Text Comment, No. of Stars, Photos
       Action: Done, Cancel
 
 
