@@ -79,7 +79,7 @@ INPUTS & ACTIONS:
 DATABASE:
 
   Product_Info:
-    # Product_id (Primanry key)
+    # Product_id (Primary key)
     # Product_name
     # product_price
     # Available_Size
