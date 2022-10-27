@@ -1,6 +1,6 @@
 
 
-                                             TeesForYou.com (Custom made Printed T-shirt ordering site => E-Commerce)              
+                                                              TeesForYou.com (E-Commerce)              
 
 
 TYPES OF USERS:
@@ -12,7 +12,7 @@ FUNTIONALITIES
   1.Customer:
     # Signin / Signup page (Using mail/Phone No.)
     # selecting the type of product (Tshirt, sweatshirts, TankTops, V-neck, Hoodies)
-    # Order Details(Size, color, Design photo to print, No. of units)
+    # Order Details(Size, color, No. of units)
     # Checkout ( Address, Payment mode)
     # delievery status
     # Writing Review
@@ -41,7 +41,7 @@ INPUTS & ACTIONS:
       Action: product Cards (takes to order details page)
 
     # Order Details
-      Input : Size, color, Design photo to print, No. of units, Address, Payment mode
+      Input : Size, color, No. of units, Address, Payment mode
       Action: Add to Cart,Buy Now
 
     # CheckOut
@@ -103,17 +103,11 @@ DATABASE:
     # UPI_id
 
 
-  PhotoFile_Info:
-    # Photo_ID
-    # PhotoFile_Name
-    # Photo_file
-
   Order_Info:
     # Order_id (primary_key)
     # Product_id (Foreign_key)
     # Customer_id (Foreign_key)
     # Payment_id (Foreign_key)
-    # Photo_ID (Foreign_key)
     # No_of_units
     # Size
     # Color
