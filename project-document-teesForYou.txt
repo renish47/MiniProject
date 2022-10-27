@@ -33,11 +33,11 @@ INPUTS & ACTIONS:
 
     # SignUp
       Input : Name, PhoneNo./Email, password
-      Action: signup, Authentication
+      Action: signup, Password-Authentication
 
     # SignIn
       Input : PhoneNo./Email, password
-      Action: signin
+      Action: signin, Account-Authentication
 
     # Selecting product
       Input :
@@ -59,8 +59,8 @@ INPUTS & ACTIONS:
   2.ADMIN:
 
     # SignIn
-      Input : PhoneNo./Email, password
-      Action: signin, Authentication
+      Input : Email, password
+      Action: signin, Account-Authentication
 
     # Adding / Editing Products
       Input : Photo, Name, Price, Color, Size, Availabitity
