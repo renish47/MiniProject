@@ -33,7 +33,7 @@ INPUTS & ACTIONS:
 
     # SignUp
       Input : Name, PhoneNo./Email, password
-      Action: signup
+      Action: signup, Authentication
 
     # SignIn
       Input : PhoneNo./Email, password
@@ -60,7 +60,7 @@ INPUTS & ACTIONS:
 
     # SignIn
       Input : PhoneNo./Email, password
-      Action: signin
+      Action: signin, Authentication
 
     # Adding / Editing Products
       Input : Photo, Name, Price, Color, Size, Availabitity
