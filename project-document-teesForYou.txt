@@ -1,5 +1,4 @@
 
-
                                                                  TeesForYou.com (E-Commerce)     
 
 
@@ -12,6 +11,7 @@ TYPES OF USERS:
 
 
 FUNTIONALITIES
+
   1.Customer:
     # Signin / Signup page (Using mail/Phone No.)
     # selecting the type of product (Tshirt, sweatshirts, TankTops, Hoodies)
@@ -29,6 +29,7 @@ FUNTIONALITIES
 
 
 INPUTS & ACTIONS:
+
   1.Customer:
 
     # SignUp
