@@ -33,38 +33,38 @@ INPUTS & ACTIONS:
 
     # SignUp
       Input : Name, PhoneNo./Email, password
-      Action: signUp_button, show/hide_password_button
+      Action: SignUp_button, Show/hide_Password_button
 
     # SignIn
       Input : PhoneNo./Email, password
-      Action: signIn_button, Account_Authentication, show/hide_password_button
+      Action: SignIn_button, Account_Authentication, Show/hide_Password_button
 
     # Selecting product
       Input :
-      Action: product_Cards (takes to order details page)
+      Action: Product_Cards (takes to order details page)
 
     # Order Details
       Input : Size, color, No. of units, Address, Payment_mode
-      Action: addToCart_button, buyNow_button
+      Action: AddToCart_button, BuyNow_button
 
     # CheckOut
       Input : Address, Payment_mode
-      Action: placeOrder_button, ok_button, save_button, cancel_button
+      Action: PlaceOrder_button, Ok_button, Save_button, Cancel_button
 
     # Reviews:
       Input : Text_Comment, No._of_Stars, Photos
-      Action: done_button, Cancel_button
+      Action: Done_button, Cancel_button
 
 
   2.ADMIN:
 
     # SignIn
       Input : Email, password
-      Action: signIn_button, Account_Authentication, show/hide password_button
+      Action: signIn_button, Account_Authentication, Show/hide password_button
 
     # Adding / Editing Products
       Input : Photo, Name, Price, Color, Size, Availabitity
-      Action: Save_button, Add_button, remove_button, Cancel_button
+      Action: Save_button, Add_button, Remove_button, Cancel_button
 
     # Dashboard
       Input : 
